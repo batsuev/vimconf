@@ -1,0 +1,9 @@
+# deny backup and swap files
+*~
+*.*~
+*.swp
+*.swo
+
+# deny backups, tmp and 
+/vim/backup/*
+/vim/tmp/*
