@@ -64,3 +64,8 @@ set backupdir=~/.vim/backup
 
 " Backspace fix
 set backspace=indent,eol,start
+
+" Search
+set incsearch
+set hlsearch
+set ignorecase smartcase
