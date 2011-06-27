@@ -69,3 +69,9 @@ set backspace=indent,eol,start
 set incsearch
 set hlsearch
 set ignorecase smartcase
+
+" Allow custom configs
+set exrc
+
+" Secure!
+set secure
