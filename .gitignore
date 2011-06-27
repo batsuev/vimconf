@@ -7,3 +7,6 @@
 # deny backups, tmp and 
 /vim/backup/*
 /vim/tmp/*
+
+# smth
+.netrwhist
