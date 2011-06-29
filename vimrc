@@ -75,3 +75,12 @@ set exrc
 
 " Secure!
 set secure
+
+" Go back to the position the cursor was on the last time this file was edited
+autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute("normal! g'\"") | endif
+
+" NerdTree
+nmap <silent> <F3> :NERDTreeToggle<CR>
+
+" Complete on Ctrl+Space
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<C-space>"
