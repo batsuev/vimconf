@@ -81,6 +81,3 @@ autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute("
 
 " NerdTree
 nmap <silent> <F3> :NERDTreeToggle<CR>
-
-" Complete on Ctrl+Space
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<C-space>"
