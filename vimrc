@@ -81,3 +81,20 @@ autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute("
 
 " NerdTree
 nmap <silent> <F3> :NERDTreeToggle<CR>
+
+" Reload page
+function! s:ReloadSafari()
+    let l:openApp = " -e 'tell application \"Safari\"'"
+\                 . " -e '    activate'"
+\                 . " -e '    set rURL to URL of current tab of front window'"
+\                 . " -e '    set URL of current tab of front window to rURL'"
+\                 . " -e 'end tell'"
+\                 . " -e 'tell application \"iTerm\"'"
+\                 . " -e '    activate'"
+\                 . " -e 'end tell'"
+    exec "silent !osascript ".l:openApp
+    exec "redraw!"
+endfunction
+
+command! ReloadSafari call s:ReloadSafari()
+nmap <silent> <F5> :ReloadSafari<CR>
