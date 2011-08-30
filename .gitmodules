@@ -9,4 +9,4 @@
 	url = git://github.com/scrooloose/nerdtree.git
 [submodule "vim/bundle/googleclosure"]
 	path = vim/bundle/googleclosure
-	url = git@github.com:batsuev/googleclosurevim.git
+	url = git@github.com:batsuev/google-closure-vim.git
