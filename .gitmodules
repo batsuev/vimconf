@@ -10,3 +10,6 @@
 [submodule "vim/bundle/googleclosure"]
 	path = vim/bundle/googleclosure
 	url = git@github.com:batsuev/google-closure-vim.git
+[submodule "vim/bundle/conque"]
+	path = vim/bundle/conque
+	url = https://github.com/rygwdn/vim-conque.git
