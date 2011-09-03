@@ -98,3 +98,8 @@ endfunction
 
 command! ReloadSafari call s:ReloadSafari()
 nmap <silent> <F5> :ReloadSafari<CR>
+
+" Paste toggle for F2
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
