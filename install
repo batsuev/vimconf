@@ -6,4 +6,7 @@ echo "Creating symlinks to "$dir
 ln -s $dir/vim $HOME/.vim
 ln -s $dir/vimrc $HOME/.vimrc
 
+mkdir vim/tmp
+mkdir vim/backup
+
 git submodule update --init
