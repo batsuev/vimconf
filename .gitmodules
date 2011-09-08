@@ -6,10 +6,10 @@
 	url = git://github.com/scrooloose/nerdtree.git
 [submodule "vim/bundle/googleclosure"]
 	path = vim/bundle/googleclosure
-	url = git@github.com:batsuev/google-closure-vim.git
+	url = git://github.com/batsuev/google-closure-vim.git
 [submodule "vim/bundle/conque"]
 	path = vim/bundle/conque
-	url = https://github.com/rygwdn/vim-conque.git
+	url = git://github.com/rygwdn/vim-conque.git
 [submodule "vim/bundle/vim-javascript"]
 	path = vim/bundle/vim-javascript
-	url = git@github.com:batsuev/vim-javascript.git
+	url = git://github.com/batsuev/vim-javascript.git
