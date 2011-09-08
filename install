@@ -1,0 +1,9 @@
+#!/bin/sh
+
+dir=$PWD/`dirname $0`
+echo "Creating symlinks to "$dir
+
+ln -s $dir/vim $HOME/.vim
+ln -s $dir/vimrc $HOME/.vimrc
+
+git submodule update --init
