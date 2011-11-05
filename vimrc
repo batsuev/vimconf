@@ -19,7 +19,7 @@ set ruler
 set number
 
 " Text width: 80 symbols
-set textwidth=80
+set textwidth=160
 set nowrap
 set colorcolumn=+1
 
