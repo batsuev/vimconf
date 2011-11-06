@@ -7,9 +7,6 @@
 [submodule "vim/bundle/googleclosure"]
 	path = vim/bundle/googleclosure
 	url = git://github.com/batsuev/google-closure-vim.git
-[submodule "vim/bundle/conque"]
-	path = vim/bundle/conque
-	url = git://github.com/rygwdn/vim-conque.git
 [submodule "vim/bundle/vim-javascript"]
 	path = vim/bundle/vim-javascript
 	url = git://github.com/batsuev/vim-javascript.git
