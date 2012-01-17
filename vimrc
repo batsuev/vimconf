@@ -103,3 +103,6 @@ nmap <silent> <F5> :ReloadSafari<CR>
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
+
+" Mouse
+set mouse=a
