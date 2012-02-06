@@ -106,3 +106,6 @@ set showmode
 
 " Mouse
 set mouse=a
+
+" pyflakes
+let g:pyflakes_use_quickfix = 0
