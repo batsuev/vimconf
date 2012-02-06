@@ -25,3 +25,9 @@
 [submodule "vim/bundle/shower"]
 	path = vim/bundle/shower
 	url = git://github.com/batsuev/shower-vim.git
+[submodule "vim/bundle/snipmate"]
+	path = vim/bundle/snipmate
+	url = https://github.com/msanders/snipmate.vim.git
+[submodule "vim/bundle/snipmate-snippets"]
+	path = vim/bundle/snipmate-snippets
+	url = https://github.com/scrooloose/snipmate-snippets.git

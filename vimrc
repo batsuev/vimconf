@@ -107,5 +107,4 @@ set showmode
 " Mouse
 set mouse=a
 
-" pyflakes
-let g:pyflakes_use_quickfix = 0
+let g:snippets_dir='~/.vim/bundle/snipmate-snippets/'
