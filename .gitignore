@@ -5,6 +5,7 @@ vim/bundle/vim-fugitive/
 vim/bundle/vim-ruby/
 vim/bundle/L9/
 vim/bundle/FuzzyFinder/
+vim/bundle/bufexplorer.zip/
 
 # deny backup and swap files
 *~

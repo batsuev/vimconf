@@ -15,6 +15,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
+Bundle 'bufexplorer.zip'
 
 " /Bundles
 filetype plugin indent on
@@ -39,14 +40,13 @@ set colorcolumn=+1
 
 " Tabulations
 set smarttab
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set shiftround
 set autoindent smartindent
 
 " Tabs && buffers
-set showtabline=2
 nmap <Right> :bn<CR>
 nmap <Left> :bp<CR>
 set hidden
@@ -107,3 +107,4 @@ set statusline+=\ %P    "percent through file
 
 " Fuzze finder
 nnoremap <silent> <F4>     :FufFile<CR>
+
