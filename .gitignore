@@ -1,0 +1,5 @@
+.DS_Store
+vim/bundle/nerdtree/
+vim/bundle/vim-colors-solarized/
+vim/bundle/vim-fugitive/
+*.swp
