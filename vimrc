@@ -12,6 +12,9 @@ Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-fugitive'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'L9'
+Bundle 'FuzzyFinder'
 
 " /Bundles
 filetype plugin indent on
@@ -101,3 +104,6 @@ set statusline+=%=      "left/right separator
 set statusline+=%c,     "cursor column
 set statusline+=%l/%L   "cursor line/total lines
 set statusline+=\ %P    "percent through file
+
+" Fuzze finder
+nnoremap <silent> <F4>     :FufFile<CR>

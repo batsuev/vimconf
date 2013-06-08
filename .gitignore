@@ -2,4 +2,8 @@
 vim/bundle/nerdtree/
 vim/bundle/vim-colors-solarized/
 vim/bundle/vim-fugitive/
+vim/bundle/vim-ruby/
+vim/bundle/L9/
+vim/bundle/FuzzyFinder/
+
 *.swp
