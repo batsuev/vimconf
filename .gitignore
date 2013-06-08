@@ -6,4 +6,12 @@ vim/bundle/vim-ruby/
 vim/bundle/L9/
 vim/bundle/FuzzyFinder/
 
+# deny backup and swap files
+*~
+*.*~
 *.swp
+*.swo
+
+vim/backup/*
+vim/tmp/*
+.netrwhist
