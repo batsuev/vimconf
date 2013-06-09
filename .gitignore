@@ -18,3 +18,4 @@ vim/tmp/*
 .netrwhist
 vim/bundle/vim-slim/
 vim/bundle/vim-vagrant/
+vim/bundle/actionscript.vim/

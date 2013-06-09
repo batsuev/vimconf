@@ -18,6 +18,7 @@ Bundle 'slim-template/vim-slim'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
 Bundle 'bufexplorer.zip'
+Bundle 'endel/actionscript.vim'
 
 " /Bundles
 filetype plugin indent on
