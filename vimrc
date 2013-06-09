@@ -13,6 +13,8 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-fugitive'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'markcornick/vim-vagrant'
+Bundle 'slim-template/vim-slim'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
 Bundle 'bufexplorer.zip'
@@ -107,4 +109,8 @@ set statusline+=\ %P    "percent through file
 
 " Fuzze finder
 nnoremap <silent> <F4>     :FufFile<CR>
+nnoremap <silent> <C-e> :FufFile<CR>
 
+" bufexplorer
+nnoremap <silent> <F5> :BufExplorerVerticalSplit<CR>
+nnoremap <silent> <C-b> :BufExplorerVerticalSplit<CR>
