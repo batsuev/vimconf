@@ -19,3 +19,5 @@ vim/tmp/*
 vim/bundle/vim-slim/
 vim/bundle/vim-vagrant/
 vim/bundle/actionscript.vim/
+vim/bundle/asm8051.vim/
+vim/bundle/javascript-libraries-syntax.vim/

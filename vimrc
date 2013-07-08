@@ -1,6 +1,9 @@
 set nocompatible
 filetype off
 
+set guioptions-=L
+set guioptions-=r
+
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
@@ -19,6 +22,8 @@ Bundle 'L9'
 Bundle 'FuzzyFinder'
 Bundle 'bufexplorer.zip'
 Bundle 'endel/actionscript.vim'
+Bundle 'vim-scripts/asm8051.vim'
+Bundle 'othree/javascript-libraries-syntax.vim'
 
 " /Bundles
 filetype plugin indent on
