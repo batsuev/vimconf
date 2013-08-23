@@ -24,6 +24,8 @@ Bundle 'bufexplorer.zip'
 Bundle 'endel/actionscript.vim'
 Bundle 'vim-scripts/asm8051.vim'
 Bundle 'othree/javascript-libraries-syntax.vim'
+Bundle 'klen/python-mode'
+Bundle 'rkulla/pydiction'
 
 " /Bundles
 filetype plugin indent on
